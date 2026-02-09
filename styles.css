@@ -35,3 +35,17 @@ body {
     padding: 10px;
     margin-top: 40px;
 }
+
+
+.product {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
