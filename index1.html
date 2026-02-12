@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MyShop | Home</title>
-  <link rel="stylesheet" href="styles1.css">
+    <meta charset="UTF-8">
+    <title>MyShop | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
 
-<header>
-  <h1>MyShop</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
-  </nav>
+<!-- HEADER -->
+<header class="header">
+    <div class="logo">MyShop</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
 </header>
 
-<main>
-  <h2>Products</h2>
-  <div id="product-list" class="grid"></div>
-</main>
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Upgrade Your Tech Life</h1>
+        <p>Discover the best gadgets at unbeatable prices</p>
+        <button onclick="scrollToProducts()">Shop Now</button>
+    </div>
+</section>
 
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+<!-- PRODUCTS -->
+<section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div id="product-list" class="product-grid"></div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 MyShop. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
