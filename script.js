@@ -83,7 +83,7 @@ function displayProducts() {
         const card = document.createElement("div");
         card.className = "product-card";
 
-        card.innerHTML = `
+       card.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p>₹${product.price}</p>
