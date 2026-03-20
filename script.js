@@ -43,7 +43,6 @@
 
 // displayProducts();
 
-
 const products = [
     {
         id: 1,
