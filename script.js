@@ -43,7 +43,7 @@
 
 // displayProducts();
 
-const products = [
+ccccccccccccccconst products = [
     {
         id: 1,
         name: "Wireless Headphones",
