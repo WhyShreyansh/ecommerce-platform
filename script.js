@@ -42,7 +42,7 @@
 // }
 
 // displayProducts();
-  const products = [
+                   const products = [
     {
         id: 1,
         name: "Wireless Headphones",
