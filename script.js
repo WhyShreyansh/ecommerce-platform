@@ -44,7 +44,7 @@
 // displayProducts();
 const products = [
     {
-        id: 1,
+                         id: 1,
         name: "Wireless Headphones",
         price: 1999,
         image: "https://images.unsplash.com/photo-1518441902113-c1b5e8a7f7aa"
