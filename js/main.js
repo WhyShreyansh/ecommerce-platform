@@ -1,4 +1,4 @@
-             const list = document.getElementById("product-list");
+const list = document.getElementById("product-list");
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 function updateCartCount() {
