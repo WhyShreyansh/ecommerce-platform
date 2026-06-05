@@ -57,7 +57,7 @@ const products = [
     },
     {
         id: 3,
-        name: "Bluetooth Speaker",
+                  name: "Bluetooth Speaker",
         price: 1499,
         image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
     },
