@@ -52,7 +52,7 @@ const products = [
     {
         id: 2,
         name: "Smart Watch",
-           price: 2999,
+        price: 2999,
         image: "https://images.unsplash.com/photo-1511732351155-1865efcb7b7f"
     },
     {
