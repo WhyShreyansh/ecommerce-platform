@@ -1,4 +1,4 @@
-const cartItems = document.getElementById("cart-items");
+               const cartItems = document.getElementById("cart-items");
 const totalSpan = document.getElementById("total");
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
